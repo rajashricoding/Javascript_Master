@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgb(255, 255, 255);
+
+}
+.container{
+height: 90vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1rem;
+    display: grid;
+    gap: 3%;
+}
+.one{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    background-color: rgb(165, 42, 128);
+}
+.two{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    background-color: rgb(42, 89, 165);
+}
+.one{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    
+}
+.one{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    
+}
+.last{
+    background-color: yellow;
+    border: 1px solid black;
+}
