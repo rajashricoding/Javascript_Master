@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: paleturquoise;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(78, 223, 223);
+    margin-top: 8rem;
+    transition: 0.6s ease-in-out;
+}
+div:hover{
+    transform: scale(1.2);
+}
+#d1:hover{
+     border-radius: 50%;
+}
+

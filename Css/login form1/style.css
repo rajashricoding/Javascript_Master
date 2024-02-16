@@ -1,0 +1,35 @@
+*{
+    margin: 5px 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+form{
+    margin: 4rem auto;
+    border: 1px solid red;
+    width: 30rem;
+    height: 85vh;
+    background-color: chartreuse;
+    margin: 2rem auto;
+}
+h1{
+    color: red;
+}
+#btn{
+    padding: 10px 40px;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+a{
+    color: aliceblue;
+}
+
+
