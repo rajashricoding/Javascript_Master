@@ -18,31 +18,34 @@ main{
     place-items: center;
     background-color: aliceblue;
 } 
+h1{
+    margin-bottom: 1.5rem;
+}
 .input_text{
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 80% 20%;
 }
 input{
     padding: 0.6rem 3rem;
     font-size: 1rem;
 }
-.add{
+.btn{
     padding: 0.1rem 0.7rem;
     font-size: 2rem;
-
 }
 .todo_items{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    border: 1px solid black;
+    height: 100%;
+    width: 100%;
     margin-top: 1.3rem;
 }
 li{
-    padding: 0.5rem 7rem;
-    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border: 1px solid black;
+    margin-top: 0.5rem;
 }
-.remove{
-    padding: 0.1rem 0.7rem;
-    font-size: 2rem;
+p{
+    padding: 0.6rem 3rem;
+    font-size: 1rem;
+}
 
-}

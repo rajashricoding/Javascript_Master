@@ -37,7 +37,7 @@ main #p{
 .left{
     background-color: aliceblue;
     color:  aquamarine;
-    border-radius: 8%;
+    border-radius: 22px;
     padding: 2rem;
 }
 .left h2,p{
