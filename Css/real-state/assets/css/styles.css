@@ -53,7 +53,7 @@
 }
 
 /*=============== BASE ===============*/
-* {
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -133,6 +133,7 @@ nav{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 nav .btn a{
   color: aliceblue;
@@ -147,7 +148,7 @@ nav .btn a{
 /*=============== HOME ===============*/
 .home{
   width: 100%;
-  max-height: 35rem;
+  max-height: 45rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,9 +156,9 @@ nav .btn a{
   margin-top: 3rem;
 }
 .home__container{
-  width: 100%;
+  width: 95%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0 auto;
   margin-top: 4rem;
 }
@@ -184,9 +185,6 @@ h1{
   width: 100%;
   padding: 1rem 7rem;
   border-radius: 0.4rem;
-  position: relative;
-  top: 0;
-  left: 0;
 }
 .home__input{
   width: 100%;
@@ -194,9 +192,7 @@ h1{
 }
 #input  .btn1{
  
-  position: absolute;
-  top: 0;
-  right: 0;
+
 }
 .home-values{
   width: 100%;
@@ -205,7 +201,7 @@ h1{
 }
 
 .home__img{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 .home__img .img{
@@ -235,8 +231,9 @@ h1{
 .logo__container{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   place-items: center;
+  gap: 2rem;
 }
 .logo__container > img{
   color: var(--first-color-light);
@@ -248,10 +245,13 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 .popular__titles{
   width: 63rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .popular__titles p{
   color: var(--second-color);
@@ -267,7 +267,7 @@ h1{
 .popular__content{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 .popular__card{
@@ -275,7 +275,7 @@ h1{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 .popular__card > img{
   height: 15rem;
@@ -304,11 +304,12 @@ h1{
 .value__container{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0 auto;
+  gap: 3rem;
 }
 .value__image{
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -325,7 +326,7 @@ h1{
 .value__content{
   width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 .value__content span{
   color: var(--second-color);
@@ -367,7 +368,9 @@ h1{
 .contact__container{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   gap: 2rem;
 }
@@ -377,6 +380,9 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
+}
+.contact__titles{
+  padding: 0 1rem;
 }
 .contact__card{
   background-color: aliceblue;
@@ -410,7 +416,23 @@ h1{
   color: rgb(23, 23, 243);
   font-size: 1.5rem;
 }
-
+.contact__image{
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__image .cimage{
+   width: 70%;
+   padding: 1rem;
+   border-radius: 15rem 15rem 1rem 1rem ;
+   background-color: rgb(205, 224, 236);
+}
+.cimage img{
+  width: 100%;
+  border-radius: 15rem 15rem 1rem 1rem ;
+}
 
 /*=============== SUBSCRIBE ===============*/
 .subscribe{
@@ -420,16 +442,19 @@ h1{
   justify-content: center;
 }
 .subscribe__container{
-  width: 100%;
-  display: grid;
-  place-items: center;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 1rem;
-  padding: 2rem 17rem;
+  padding: 1rem 0;
   background-color: rgb(32, 35, 214);
   border: 0.6rem solid rgb(54, 54, 255);
   border-radius: 1rem;
 }
 .subscribe__container h2{
+  text-align: center;
   color: white;
  font-size: 2rem;
 }
@@ -458,9 +483,9 @@ h1{
 .footer__container{
   width: 100%;  
   display: grid;
-  grid-template-columns: 30% 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 .footer__left{
   width: 100%;
@@ -470,10 +495,10 @@ h1{
 }
 .footer__right{
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
   gap: 2rem;
   padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .footer__right h2{
   font-size: 1.3rem
@@ -492,12 +517,35 @@ h1{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width:640px){
+  nav{
+    display: none;
+  }
+}
+@media screen and (min-width:640px){
+  .home__container{
+    width: 90%;
+    
+  }
 
+
+}
 
 /* For medium devices */
-
+@media screen and (min-width:768px){
+  .home__container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+  }
+}
 
 /* For large devices */
-
+@media screen and (min-width:1024px){
+  .home__container{
+    width: 80%;
+  }
+}
 
 /* For 2K & 4K resolutions */
