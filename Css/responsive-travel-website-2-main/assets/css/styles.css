@@ -188,7 +188,13 @@ nav a:hover{
 .home__content{
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
+}
+.home__content button{
+  width: 13rem;
+}
+.home__content button i{
+  margin: 0 0.5rem;
 }
 .home__content h1{
   font-size: var(--biggest-font-size);
@@ -270,6 +276,9 @@ nav a:hover{
   flex-direction: column;
   gap: 2rem;
   padding: 2.5rem;
+}
+.about__content button i{
+  margin: 0 0.4rem;
 }
 .about__content h2{
   font-size: 2.5rem;
@@ -362,6 +371,9 @@ nav a:hover{
   flex-direction: column;
   gap: 2rem;
   padding: 2rem 4rem;
+}
+.join__content button i{
+  margin: 0 1rem;
 }
 .join__content h2{
   font-size: 2.5rem;
