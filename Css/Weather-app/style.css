@@ -31,6 +31,7 @@ main{
     align-items: center;
     flex-direction: column;
     border-radius: 0.4rem;
+    color: aliceblue;
     gap: 1.5rem;
     padding: 2rem 1.5rem;
     background-color: rgba(74, 153, 255, 0.863);

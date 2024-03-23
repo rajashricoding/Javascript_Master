@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+main{
+    height: 30rem;
+    width: 60rem;
+    background-color: aqua;
+    margin: 85px auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box__container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.box__container .box{
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+}
+.btn__container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: aliceblue;
+}
+.btn1{
+    background-color: red;
+}
+.btn2{
+    background-color: blue;
+}
+.btn3{
+    background-color: green;
+}
+.btn4{
+    background-color: orangered;
+}
+.btn5{
+    background-color: violet;
+}
