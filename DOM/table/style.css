@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(221, 221, 221, 0.993);
+}
+table th{
+    color: white;
+    background-color: rgb(75, 15, 170);
+    padding: 1rem 2rem;
+}
+table td{
+    padding: 1rem 2rem;
+}
+.btn{
+    color: white;
+    background-color: rgb(75, 15, 170);
+    padding: 10px 25px;
+    border: none;
+}
+table tr{
+    padding: 2rem 4rem;
+}
+table{
+    width: 85%;
+    text-align: center;
+    border: 1px solid black;
+}
+.color1{
+    background-color: rgba(221, 221, 221, 0.993);
+}
+.color2{
+    background-color: azure;
+}
