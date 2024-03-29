@@ -9,7 +9,7 @@ boxs.forEach((box) => {
 
 btn.addEventListener("click", ( ) => {
     boxs.forEach((box) => {
-       if( box.classList.add("selected")){
+       if(box.classList.contains("selected")){
         box.remove();
        }
     })
