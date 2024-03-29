@@ -27,8 +27,8 @@ main{
     padding: 1rem;
 }
 .box{
-    width: 80%;
-    height: 6rem;
+    height: 120px;
+    width: 120px;
     font-size: 1.5rem;
     display: grid;
     place-content: center;
@@ -64,12 +64,12 @@ main{
     gap: 1rem;
 }
 .newbox1{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: rgb(245, 44, 61);
 }
 .newbox2{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: rgb(24, 207, 24);
 }
